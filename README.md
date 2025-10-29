@@ -8,9 +8,9 @@ It follows a clean, layered approach to turn raw data into meaningful insights a
 ## 🌐 What This Project Does
 
 This project shows how data moves through a complete life cycle in a cloud setup.  
-Starting from a raw CSV file, it passes through different layers — **Bronze, Silver, and Gold** — and ends with a trained AI model that can predict whether a transaction is fraudulent.
+Starting from a raw CSV file, it passes through different layers: **Bronze, Silver, and Gold** , and ends with a trained AI model that can predict whether a transaction is fraudulent.
 
-It’s called **MLOps** because every step is automated, consistent, and ready for scaling — just like production systems used in real companies.
+It’s called **MLOps** because every step is automated, consistent, and ready for scaling, just like production systems used in real companies.
 
 ---
 
@@ -40,7 +40,7 @@ At this stage:
 - We confirm column names and data types.
 - We look for missing or invalid values.
 
-Think of Bronze as the “warehouse receiving area” — data arrives but isn’t unpacked yet.
+Think of Bronze as the “warehouse receiving area” : data arrives but isn’t unpacked yet.
 
 ---
 
@@ -54,7 +54,7 @@ Here we:
 - Count how many unique senders, receivers, and transaction types exist.
 - Analyze fraud distribution (for example, which transaction types are most risky).
 
-We also explore **relationships** — like how balances change between senders and receivers, or which types of transfers are suspicious.
+We also explore **relationships** , like how balances change between senders and receivers, or which types of transfers are suspicious.
 
 This layer ensures all data is accurate and ready for deeper analysis.  
 Think of Silver as the “quality control room”.
@@ -129,5 +129,4 @@ With these upgrades, the project becomes a full production-grade MLOps pipeline.
 
 ---
 
-## 🧱 Project Folder Structure
 
